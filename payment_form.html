@@ -15,12 +15,13 @@
 
     <h1>Payment Form Sample</h1>
     <h2>Contact Information</h2>
-    <p>Name: <input type="text" name="name"> </p>
+    <p>Fields which are marked with * are compulsary.</p>
+    <p>Name: * <input type="text" name="name" required> </p>
 
     <fieldset>
-        <legend>Gender</legend>
+        <legend>Gender * </legend>
         <p>
-            Male <input type="radio" name="gender" id="male"> Female <input type="radio" name="gender" id="female">
+            Male <input type="radio" name="gender" id="male" required> Female <input type="radio" name="gender" id="female" required>
         </p>
     </fieldset>
 
